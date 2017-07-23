@@ -1,3 +1,5 @@
+import loader.Assets;
+
 class TestApp extends hxd.App {
 
     /**
@@ -5,10 +7,10 @@ class TestApp extends hxd.App {
      */
     var assets : Assets;
 
-    function onLoaded () {        
-        var obj = assets.getModel ("R_Model_FBX.hmd");
+    function onLoaded () {
+        var obj = assets.getModel (Assets.Model_hmd);
         obj.scale (0.03);
-        obj.playAnimation (assets.getAnimation ("R_Model_FBX.hmd"));
+        obj.playAnimation (assets.getAnimation (Assets.Model_hmd));
         s3d.addChild (obj);
 
         var dir = new h3d.scene.DirLight(new h3d.Vector(0.2, 0.3, -1), s3d);        

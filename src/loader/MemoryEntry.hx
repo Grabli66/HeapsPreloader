@@ -1,3 +1,5 @@
+package loader;
+
 import hxd.fs.FileEntry;
 
 /**

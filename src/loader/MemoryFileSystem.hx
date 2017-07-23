@@ -1,3 +1,5 @@
+package loader;
+
 import hxd.fs.FileSystem;
 import haxe.zip.Entry;
 import hxd.fs.FileEntry;

@@ -1,3 +1,5 @@
+package loader;
+
 import haxe.io.Bytes;
 import hxd.fs.FileEntry;
 import hxd.fs.BytesFileSystem;

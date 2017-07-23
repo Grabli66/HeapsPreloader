@@ -1,3 +1,5 @@
+package loader;
+
 import js.html.XMLHttpRequestResponseType;
 import haxe.io.Bytes;
 import haxe.io.BytesInput;
@@ -11,6 +13,7 @@ import hxd.res.Loader;
 /**
  *  Manage assets
  */
+@:build(loader.FileTree.build())
 class Assets {    
 
     /**
